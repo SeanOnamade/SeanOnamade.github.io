@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sean Onamade</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="css\style.css">
+    
+</head>
+<body>
+
+    <div class="site-main-wrapper">
+
+
+        <!--Nav Start-->
+        <div class="hamburger">
+            <button class="hamburger-button">
+                <img src="images/hamburger.svg" alt=""> 
+            </button>
+        </div>
+        <div class="mobile-nav">
+            <button class="exit">
+                <img src="images/exit.svg" alt="">
+            </button>
+            <ul>
+                <li><a href="#home" class="click">Home</a></li>
+                <li><a href="#about"class="click-1">About</a></li>
+                <li><a href="#skills" class="click-2">Skills</a></li>
+                <li><a href="#projects" class="click-3">Projects</a></li>
+                <li><a href="#photography" class="click-4">Photography</a></li>
+                <!-- <li><a href="#myblog" class="click-5">Blog</a></li> -->
+            </ul>
+        </div>
+        <!--Nav End-->
+
+        <!--Hero Start-->
+        <header id="home">
+            <div class="container">
+                <nav id="main-nav" class="flex items-center space-between">
+                    <div class="left flex items-center">
+                        <!-- <div class="branding">
+                            <img src="./images/nav-logo.png" alt="">
+                        </div> -->
+                        <div>
+                            <a href="#home">Home</a>
+                            <a href="#about">About</a>
+                            <a href="#skills">Skills</a>
+                            <a href="#projects">Projects</a>
+                            <a href="#photography">Photography</a>
+                            <!-- <a href="#myblog">Blog</a> -->
+                        </div>
+                    </div>
+                    <div class="right">
+                        <a href="#contact">
+                            <button class="btn btn-primary">Contact</button>
+                        </a>
+                        
+                    </div>
+                </nav>
+                <div class="hero flex items-center space-between">
+                    <div class="left flex-1 justify-center"> <!-- The justify center didn't do anything... -->
+                        <img src="images\_Sean_Onamadesmall.jpg"> <!-- must center image -->
+                    </div>
+                    <div class="right flex-1">
+                        <h6>Sean Onamade</h6>
+                        <h1>Software <span>Developer</span></h1>
+                        <div>
+                            <a href="SeanOnamadeResume.pdf" download="SeanOnamadeResume">
+                                <button class="btn btn-secondary">Download Resume</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--Hero End-->
+
+        <!--About Start-->
+        <section class="about" id="about">
+            <div class="container flex items-center">
+                <div class="left flex-1">
+                    <img src="images\_Sean_Onamadesmall.jpg">
+                </div>
+                <div class="right flex-1">
+                    <h1>About <span>Me</span></h1>
+                    <h3>Hello, I'm Sean!</h3>
+                    <p>Hey, I'm Sean Onamade, a software engineer from Canada currently attending Vanderbilt University. I'm interested in fullstack, AI, and NLP. Currently based in Paris, France!
+                    </p>
+                    <div class="social flex">
+                        <a href="https://github.com/SeanOnamade"><img src="images\github.png"></a>
+                        <a href="https://www.linkedin.com/in/seanonamade/"><img src="images\linkedin.png"></a>
+                        <a href="https://www.instagram.com/sean_cena01/"><img src="images\instagram.png"></a> <!-- do I want this...? -->
+                        <a href="#"><img src="images\twitter.png"></a>
+                    </div>
+                    <div class="tech-stack flex">
+                        <img src="images\skillicons\CPP.svg">
+                        <img src="images\skillicons\CSS.svg">
+                        <img src="images\skillicons\Firebase-Dark.svg">
+                        <img src="images\skillicons\Git.svg">
+                        <img src="images\skillicons\Github-Dark.svg">
+                        <img src="images\skillicons\HTML.svg">
+                        <img src="images\skillicons\JavaScript.svg">
+                        <img src="images\skillicons\Lightroom.png">
+                        <img src="images\skillicons\Markdown-Dark.svg">
+                        <img src="images\skillicons\Notion-Dark.svg">
+                        <img src="images\skillicons\Python-Dark.svg">
+                        <img src="images\skillicons\React-Dark.svg">
+                        <img src="images\skillicons\TailwindCSS-Dark.svg">
+                        <img src="images\skillicons\Vite-Dark.svg">
+                        <img src="images\skillicons\VSCode-Dark.svg">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--About End-->
+
+        <!--Skills Start-->
+        <!--Maybe replace w/ carousel eventually?-->
+        <section class="skills" id="skills">
+            <div class="container">
+                <h1 class="section-heading">My <span>Skills</span> and <span>Interests</span></h1>
+                <p>Here are some skills and interests of mine!</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="images\code.png">
+                        <h2>Web Dev</h2>
+                        <p>I like to design websites, with a specialization in frontend. I have an eye for aesthetics. I also like to make random web apps in my free time.</p>
+                    </div>
+                    <div class="card">
+                        <img src="images\camera.png">
+                        <h2>Photography</h2>
+                        <p>I actively take photos for the Vanderbilt Hustler and my own personal <i><a href="https://www.instagram.com/sdo.photos/"> Instagram account!</a></i> See some photos <a href="#photography">below!</a></p>
+                    </div>
+                    <div class="card">
+                        <img src="images\pencil.png">
+                        <h2>Writing</h2>
+                        <p>I've taken a number of writing classes at Vanderbilt, and write fiction in my free time.</p>  <!-- Add writing to portfolio -- short stories and stuff from classes?? -->
+                    </div>
+                    <div class="card">
+                        <img src="images\book.png">
+                        <h2>Recent Readings</h2>
+                        <p>Recently, I've been reading <b><i>La Discrétion</i></b> by Faïza Guène.</p>
+                    </div>
+                    <div class="card">
+                        <img src="images\coaching.png">
+                        <h2>Interesting Article</h2>
+                        <p>An article that's got me thinking recently is <i><a href="https://www.startingfromnix.com/p/the-way-things-go">The Way Things Go</a></i> by Nix on Substack.</p>
+                    </div>
+                    <div class="card">
+                        <img src="images\globe.png">
+                        <h2>Exploration</h2> <!--My Music?-->
+                        <p>Recently, I travelled to Chantilly to France, famous for their racecourse, château, and whipped cream!</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!--Skills End-->
+
+        <!--Make a slider for photography section!!! Maybe hovering over reveals photo details!-->
+
+        
+
+
+        <!--Projects End-->
+        <section class="projects" id="projects">
+            <div class="container">
+                <h1>My <span>Projects</span></h1>
+                <div class="project-slider">
+
+                    <div class="slide">
+                        <a href="https://github.com/osmanosy23/seo"><img src="images\gallerypro.png" alt=""></a>
+                        <h2><a href="https://github.com/osmanosy23/seo">Gallery Pro</a></h2>
+                        <div class="tech-stack flex">
+                            <img src="images\skillicons\CSS.svg">
+                            <img src="images\skillicons\Firebase-Dark.svg">
+                            <img src="images\skillicons\Git.svg">
+                            <img src="images\skillicons\Github-Dark.svg">
+                            <img src="images\skillicons\HTML.svg">
+                            <img src="images\skillicons\JavaScript.svg">
+                            <img src="images\skillicons\React-Dark.svg">
+                            <img src="images\skillicons\TailwindCSS-Dark.svg">
+                            <img src="images\skillicons\Vite-Dark.svg">
+                            <img src="images\skillicons\VSCode-Dark.svg">
+                        </div>
+                        <p>GalleryPro is a streamlined photo-sharing application for high-quality photography, with a minimalistic user interface and  user-generated, infinite-scroll functionality.</p>
+                    </div>
+
+                    <div class="slide">
+                        <a href="https://github.com/SeanOnamade/BasicProjects?tab=readme-ov-file#dotify---music-player"><img src="images\dotify.png" alt=""></a>
+                        <h2><a href="https://github.com/SeanOnamade/BasicProjects?tab=readme-ov-file#dotify---music-player">Dot-ify</a></h2>
+                        <div class="tech-stack flex">
+                            <img src="images\skillicons\CSS.svg">
+                            <img src="images\skillicons\Git.svg">
+                            <img src="images\skillicons\Github-Dark.svg">
+                            <img src="images\skillicons\HTML.svg">
+                            <img src="images\skillicons\JavaScript.svg">
+                            <img src="images\skillicons\React-Dark.svg">
+                            <img src="images\skillicons\VSCode-Dark.svg">
+                        </div>
+                        <p>Dotify's a music player app with user play-pause functionality, complete with an HTML interface.</p>
+                    </div>
+
+                    <div class="slide">
+                        <a href="https://github.com/SeanOnamade/BasicProjects?tab=readme-ov-file#tic-tac-toe"><img src="images\tictactoe.png" alt=""></a>
+                        <h2><a href="https://github.com/SeanOnamade/BasicProjects?tab=readme-ov-file#tic-tac-toe">Tic Tac Toe</a></h2>
+                        <div class="tech-stack flex">
+                            <img src="images\skillicons\Git.svg">
+                            <img src="images\skillicons\Github-Dark.svg">
+                            <img src="images\skillicons\Python-Dark.svg">
+                            <img src="images\skillicons\VSCode-Dark.svg">
+                        </div>
+                        <p>This is a simple tic tac toe game that can be played with two players on one computer. It opens an interactive window, and the game can be replayed indefinitely.</p>
+                    </div>
+
+                    <!-- <div class="slide">
+                        <img src="images\data visualization.png" alt="">
+                        <h2>Gallery Pro</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias nisi fugit perferendis quia facilis asperiores eligendi sit autem inventore corporis!</p>
+                    </div> -->
+                </div>
+                <div class="projects-slider-dot"></div>
+            </div>
+        </section>
+        
+        <!--Projects End-->
+
+        <!--Photos (Preview) Start-->
+        <section class="photos" id="photography">
+            <div class="container">
+                <h1>My <span>Photos</span></h1>
+                <div class="photo-slider">
+                    <div class="slide">
+                        <img src="images\photography\IMG_9881-2.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="images\photography\IMG_1016.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="images\photography\IMG_0391.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="images\photography\IMG_9659.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="images\photography\DSC03012-3.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="images\photography\DecPost-14.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="images\photography\DSC01150.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="images\photography\_DSC5051.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="images\photography\IMG_1752.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="images\photography\Summer-06.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="images\photography\ParisStock-03.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="images\photography\ParisStock-25.jpg" alt="">
+                    </div>    
+                </div>
+                <div class="photos-slider-dot"></div>
+            </div>
+        </section>
+        <!--Photos End-->
+
+        <!--Blog Start-->
+        <!-- <section class="myblog" id="myblog">
+            <div class="container">
+                <h1 class="section-heading">My <span>Blog</span></h1>
+                <p>Lorem ipsum dolor sit amet!</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div>
+                            <img src="images\article-ph-1.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h1> How to make cash online</h1>
+                            <span>Apr 6, 2024</span>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae cum voluptatum consectetur quis nostrum quae!</p>
+                            <a href="">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <img src="images\article-ph-1.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h1> How to make cash online</h1>
+                            <span>Apr 6, 2024</span>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae cum voluptatum consectetur quis nostrum quae!</p>
+                            <a href="">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <img src="images\article-ph-1.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h1> How to make cash online</h1>
+                            <span>Apr 6, 2024</span>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae cum voluptatum consectetur quis nostrum quae!</p>
+                            <a href="">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!--Blog End-->
+
+        <!--Contact Start-->
+        <section class="contact" id="contact">
+            <div class="container">
+                <h1 class="section-heading">Contact <span>Me</span></h1>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="images/iphone.png" alt="">
+                        <h2>Call Me</h2>
+                        <h4>123-456-7890</h4>
+                    </div>
+                    <div class="card">
+                        <img src="images/gmail.png" alt="">
+                        <h2>Email Me</h2>
+                        <h4>sean.d.onamade@vanderbilt.edu</h4> <!--link?-->
+                    </div>
+                </div>
+            
+                <form action="https://api.web3forms.com/submit" method="POST">
+
+                    <input type="hidden" name="access_key" value="c32d7d59-8eaa-43cc-951b-3a099d5a3815">
+                    
+                    <div class="input-wrap">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="input-wrap-2">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                        <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                    </div>
+                    <div class="btn-wrapper">
+                        <button class="btn btn-primary" type="submit">Submit</button>
+                    </div>
+                </form>
+
+            </div>
+        </section>
+        <!--Contact End-->
+
+        <!--Footer Start-->
+        <footer>
+            <!-- <img src="images/nav-logo.png" alt=""> -->
+            <div class="footer-text">
+                Copyright 2024 @ Sean Onamade. All Rights Reserved.
+            </div>
+        </footer>
+        <!--Footer End-->
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> <!--Replaced last slickslider line with the one JS line-->
+    <!--https://kenwheeler.github.io/slick/-->
+    <script src="./app.js"></script>
+</body>
+</html>
