@@ -598,6 +598,17 @@ footer .footer-text {
         margin-bottom: 1.2rem;
     }
 
+    .projects .tech-stack {
+        flex-wrap: wrap;
+    }
+    
+    .projects .tech-stack img {
+        height: 40px;
+        margin-right: 10px;
+        margin-top: 10px;
+        justify-content: center;
+    }
+
     .myblog .card-wrapper {
         grid-template-columns: repeat(1, 1fr);
         margin: 4rem;
@@ -704,6 +715,16 @@ footer .footer-text {
         height: 340px;
     }
 
+    .projects .tech-stack {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .projects .tech-stack img {
+        height: 30px;
+        margin-top: 10px;
+    }
+    
     .myblog .card-wrapper {
         margin-left: 0px;
         width: 100%;
