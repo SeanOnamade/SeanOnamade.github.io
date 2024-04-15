@@ -270,7 +270,8 @@ header nav .left a:hover { /* can hone in on a particular a */
     font-size: 0; /* to hide the numbers, making them plain buttons*/
     width: 15px;
     height: 15px;
-    margin-right: 5px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
     border: none;
     outline: none;
     background: grey;
@@ -320,11 +321,13 @@ header nav .left a:hover { /* can hone in on a particular a */
 
 .projects .tech-stack {
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .projects .tech-stack img {
     height: 40px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     margin-top: 10px;
     justify-content: center;
 }
