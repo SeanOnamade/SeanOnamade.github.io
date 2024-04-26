@@ -107,6 +107,39 @@ header nav .left a:hover { /* can hone in on a particular a */
     margin-top: 1rem;
 }
 
+.about .social .GitHub {
+    transition: all 0.3s ease;
+}
+
+.about .social .GitHub:hover {
+    opacity: 0.6;
+}
+
+.about .social .LinkedIn {
+    transition: all 0.3s ease;
+}
+
+.about .social .LinkedIn:hover {
+    opacity: 0.6;
+}
+
+.about .social .Instagram {
+    transition: all 0.3s ease;
+}
+
+.about .social .Instagram:hover {
+    opacity: 0.6;
+}
+
+.about .social .Twitter {
+    transition: all 0.3s ease;
+}
+
+.about .social .Twitter:hover {
+    opacity: 0.6;
+}
+
+
 .about .right .tech-stack {
     flex-wrap: wrap;
 }
@@ -198,6 +231,11 @@ header nav .left a:hover { /* can hone in on a particular a */
     font-weight: bold;
     color: var(--dark);
     text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.skills .card-wrapper a:hover {
+    opacity: 0.5;
 }
 
 /**/
@@ -316,7 +354,16 @@ header nav .left a:hover { /* can hone in on a particular a */
 
 .projects a {
     text-decoration: none;
-    color: var(--dark)
+    color: var(--dark);
+    transition: all 0.3s ease;
+}
+
+.projects a:hover {
+    opacity: 0.5;
+}
+
+.skills .card-wrapper a:hover {
+    opacity: 0.5;
 }
 
 .projects .tech-stack {
