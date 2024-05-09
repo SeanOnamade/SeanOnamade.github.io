@@ -362,6 +362,53 @@ header nav .left a:hover { /* can hone in on a particular a */
     opacity: 0.5;
 }
 
+.slider-buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-prev-slide,
+.projects-next-slide,
+.photos-prev-slide,
+.photos-next-slide {
+    z-index: 999; /* highest possible */
+    cursor: pointer;
+    height: 40px;
+    font-weight: bold; /* I don't think this does anything */
+    margin-top: 0px; /* I don't think this does anything */
+    font-size: 40px; /* Is this the same as height */
+    border: none;
+    text-shadow: 2px 5px rgba(128, 128, 128, 0.184);
+    padding: 0 20px;
+    margin: 0 20px;
+    line-height: 40px; /* for aligning along the center */
+}
+
+.projects-prev-slide:hover,
+.projects-next-slide:hover {
+    background: none;
+    font-size: 50px;
+}
+
+.projects-prev-slide,
+.photos-prev-slide {
+    margin-right: auto;
+}
+
+.projects-next-slide,
+.photos-next-slide {
+    margin-left: auto; 
+}
+
+.photos-prev-slide:hover,
+.photos-next-slide:hover {
+    background: none;
+    color: var(--pure);
+    font-size: 50px;
+    text-shadow: 2px 5px rgba(18, 145, 65, 0.786);
+}
+
 .skills .card-wrapper a:hover {
     opacity: 0.5;
 }
@@ -584,7 +631,7 @@ footer .footer-text {
     /* margin-bottom: 2rem; */ /* Not working?? */
 }
 
-@media (max-width: 1024px) { /* applicable once width is less than 1024*/
+@media (max-width: 1024px) { /* applicable once width is less than 1024 */
     
     
     header #main-nav { /* access the main nav id*/
@@ -644,6 +691,12 @@ footer .footer-text {
         margin-bottom: -0.1rem;
     }
 
+    .photos .slide img {
+        justify-content: center;
+        max-width: 100%;
+        object-fit: contain;
+    }
+
     .projects .container {
         margin-bottom: 1.2rem;
     }
@@ -657,6 +710,12 @@ footer .footer-text {
         margin-right: 10px;
         margin-top: 10px;
         justify-content: center;
+    }
+
+    .projects .slide img {
+        justify-content: center;
+        max-width: 100%;
+        object-fit: contain;
     }
 
     .myblog .card-wrapper {
@@ -773,6 +832,19 @@ footer .footer-text {
     .projects .tech-stack img {
         height: 30px;
         margin-top: 10px;
+    }
+
+    .photos-next-slide,
+    .photos-prev-slide {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .photos-prev-slide:hover,
+    .photos-next-slide:hover {
+        background: none;
+        color: var(--pure);
+        font-size: 35px;
     }
     
     .myblog .card-wrapper {

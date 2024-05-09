@@ -2,14 +2,18 @@ $(document).ready(function() {
 // document.ready means when the page is loaded, this code is executed
 // this is jQuery
     $('.photo-slider').slick({
-        arrows: false,
+        arrows: true,
+        prevArrow: '.photos-prev-slide',
+        nextArrow: '.photos-next-slide', 
         dots: true,
         appendDots: '.photos-slider-dot',
         dotsClass: 'dots'
     });
 
     $('.project-slider').slick({
-        arrows: false,
+        arrows: true,
+        prevArrow: '.projects-prev-slide',
+        nextArrow: '.projects-next-slide', 
         dots: true,
         appendDots: '.projects-slider-dot',
         dotsClass: 'dots'
