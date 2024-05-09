@@ -426,6 +426,18 @@ header nav .left a:hover { /* can hone in on a particular a */
     justify-content: center;
 }
 
+.projects .link-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-link-img img {
+    width: 40px;
+    max-height: 40px;
+    padding: 0;
+    margin: 0.2rem;
+}
 
 .myblog {
     background: var(--dark);
@@ -831,7 +843,10 @@ footer .footer-text {
     
     .projects .tech-stack img {
         height: 30px;
-        margin-top: 10px;
+        margin-top: 0px;
+        margin-bottom: 15px;
+        margin-left: 4px;
+        margin-right: 4px;
     }
 
     .projects-next-slide,
