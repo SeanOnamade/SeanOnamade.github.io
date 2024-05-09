@@ -838,7 +838,7 @@ footer .footer-text {
     .projects-prev-slide,
     .photos-next-slide,
     .photos-prev-slide {
-        display: none;
+        display: none !important; /* not best practice */
     }
 
     .photos-next-slide,
