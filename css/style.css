@@ -834,6 +834,13 @@ footer .footer-text {
         margin-top: 10px;
     }
 
+    .projects-next-slide,
+    .projects-prev-slide,
+    .photos-next-slide,
+    .photos-prev-slide {
+        display: none;
+    }
+
     .photos-next-slide,
     .photos-prev-slide {
         font-size: 30px;
