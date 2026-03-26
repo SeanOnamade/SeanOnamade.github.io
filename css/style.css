@@ -360,7 +360,6 @@ header nav .left a:hover { /* can hone in on a particular a */
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
     margin-top: 1.5rem;
-    min-height: 520px;
 }
 
 .project-card {
